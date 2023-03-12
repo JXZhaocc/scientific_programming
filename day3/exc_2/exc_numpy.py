@@ -61,3 +61,18 @@ A = np.random.randint(0,2,5)
 B = np.random.randint(0,2,5)
 equal = np.allclose(A, B)
 print(equal)
+
+# How to convert an integer (32 bits) array into a float (32 bits) in place?
+Z = np.arange(10, dtype=np.int32)
+print(Z.dtype)
+Z = np.array(Z,dtype = np.float32)
+print(Z.dtype)
+# also Z=Z.astype(np.float32)
+
+#How to get the diagonal of a dot product?
+A = np.arange(9).reshape(3,3)
+B = A + 1
+C = np.dot(A,B)
+print('C', C)
+D = np.diagonal(C)
+print('diaganal', D)
