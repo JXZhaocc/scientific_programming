@@ -1,2 +1,1 @@
-Some excercise answers. Forgive me if there are typos, sicne I rely too 
-much on auto correction :)
+Some excercise answers for the course advanced scientific programming with python.
